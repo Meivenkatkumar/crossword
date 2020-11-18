@@ -18,7 +18,7 @@ mongoose.connect(config.mongodb.dbURI, config.mongodb.setting)
         signale.success('*****Database Connection Successfull******');
         let gridData = getJsonFromPath(path.resolve(__dirname, "..", "data", "CrosswordData.json"));
         let wordData = getJsonFromPath(path.resolve(__dirname, "..", "data", "WordData.json"));
-
+        
         try {
             let grid = await Grid.findOne({ id: 0 });
             if (!grid) {

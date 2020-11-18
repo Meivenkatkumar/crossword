@@ -47,7 +47,7 @@ src: url("/assets/fonts/Nexa Light.otf");
 
 body {
     z-index: 20;
-    background-image: url("/assets/bg.png");
+    background-image: url("/assets/bg.jpg");
 }
 
 .text-login {

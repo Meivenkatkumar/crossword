@@ -4,7 +4,7 @@
         "length": 14,
         "orientation": "down",
         "number": 1,
-        "clue": "Clue 1",
+        "clue": "Using resources responsibly",
         "startIndex": {
             "x": 5,
             "y": 0
@@ -16,7 +16,7 @@
         "length": 13,
         "orientation": "across",
         "number": 2,
-        "clue": "Clue 2",
+        "clue": "GreenHouse gas",
         "startIndex": {
             "x": 4,
             "y": 4
@@ -28,7 +28,7 @@
         "length": 10,
         "orientation": "down",
         "number": 3,
-        "clue": "Clue 3",
+        "clue": "Energy in temperature difference",
         "startIndex": {
             "x": 19,
             "y": 4
@@ -40,7 +40,7 @@
         "length": 11,
         "orientation": "down",
         "number": 4,
-        "clue": "Clue 4",
+        "clue": "Non-renewables",
         "startIndex": {
             "x": 11,
             "y": 6
@@ -52,7 +52,7 @@
         "length": 5,
         "orientation": "down",
         "number": 5,
-        "clue": "Clue 5",
+        "clue": "From sun",
         "startIndex": {
             "x": 7,
             "y": 7
@@ -64,7 +64,7 @@
         "length": 7,
         "orientation": "across",
         "number": 6,
-        "clue": "Clue 6",
+        "clue": "Organic Matter",
         "startIndex": {
             "x": 5,
             "y": 8
@@ -76,7 +76,7 @@
         "length": 7,
         "orientation": "across",
         "number": 7,
-        "clue": "Clue 7",
+        "clue": "Long term pattern",
         "startIndex": {
             "x": 13,
             "y": 8
@@ -88,7 +88,7 @@
         "length": 10,
         "orientation": "down",
         "number": 7,
-        "clue": "Clue 7",
+        "clue": "Release energy",
         "startIndex": {
             "x": 13,
             "y": 8
@@ -100,7 +100,7 @@
         "length": 7,
         "orientation": "across",
         "number": 8,
-        "clue": "Clue 8",
+        "clue": "Greenhouse Gas",
         "startIndex": {
             "x": 13,
             "y": 10
@@ -112,7 +112,7 @@
         "length": 6,
         "orientation": "across",
         "number": 9,
-        "clue": "Clue 9",
+        "clue": "Ability to do work",
         "startIndex": {
             "x": 0,
             "y": 13
@@ -124,7 +124,7 @@
         "length": 4,
         "orientation": "down",
         "number": 10,
-        "clue": "Clue 10",
+        "clue": "Metal Pollutant",
         "startIndex": {
             "x": 15,
             "y": 13
@@ -136,7 +136,7 @@
         "length": 7,
         "orientation": "across",
         "number": 11,
-        "clue": "Clue 11",
+        "clue": "Day to Day pattern",
         "startIndex": {
             "x": 10,
             "y": 14
@@ -148,7 +148,7 @@
         "length": 8,
         "orientation": "across",
         "number": 12,
-        "clue": "Clue 12",
+        "clue": "Energy unit",
         "startIndex": {
             "x": 4,
             "y": 16

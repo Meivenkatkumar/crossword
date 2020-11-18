@@ -1,5 +1,6 @@
 var setHover = (targets) => {
    var targetArray = targets.split(',');
+   console.log(targetArray);
    targetArray.forEach(element => {
      element = element.slice(1);
      var x = document.getElementById(element);

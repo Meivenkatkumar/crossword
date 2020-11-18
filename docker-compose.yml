@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: crosswordyan_web
+    container_name: crossword_web
     command: bash -c "node scripts/populate.js && npm run server"
     ports:
       - "8809:8081"
@@ -15,7 +15,7 @@ services:
 
   mongo:
     image: mongo
-    container_name: crosswordyan_db
+    container_name: crossword_db
     ports:
       - "27018:27017"
     restart: always

@@ -149,11 +149,10 @@ registerHelper = async(req) => {
             password: req.body.password,
             username: req.body.username,
             mobileNumber: req.body.mobileNumber,
-            isVerified: false,
+            isVerified: true,
             verificationCode: utils.generateRandomString(10),
             passwordResetId: ""
         }
-        await utils.sendMail(req.body.email, user.verificationCode);
         let newUser = new User(user);
         await newUser.save();
         return newUser;

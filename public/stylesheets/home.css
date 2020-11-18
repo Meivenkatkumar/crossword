@@ -9,7 +9,7 @@ src: url("/assets/fonts/Nexa Light.otf");
 body {
 	background-color: #264653;
 	text-align: center;
-	background-image: url(/assets/bg.png);
+	background-image: url(/assets/bg.jpg);
 }
 
 .navbar {
