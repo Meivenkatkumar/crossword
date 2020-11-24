@@ -1,7 +1,7 @@
 module.exports = {
 
     mongodb: {
-        dbURI: "mongodb://localhost:27017/crosswordyan21",
+        dbURI: "mongodb://mongo:27017/crosswordyan21",
         setting: {
             useNewUrlParser:true,
             useUnifiedTopology:true   // to fix deprecation issues
@@ -16,7 +16,7 @@ module.exports = {
     },
     baseUrl: "http://localhost:8081/",
     sendgrid: {
-        FromAddress:"noreply@pragyan.com",
+        FromAddress:"noreply@gmail.com",
         apiKey:"[insert your sendgrid api key]"
     }
 };

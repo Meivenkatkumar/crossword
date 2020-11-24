@@ -8,11 +8,7 @@ module.exports = {
         }
     },
     session: {
-        secretString: "may the force be with you"
-    },
-    imap: {
-        host: "203.129.195.133",
-        port: 143
+        secretString: "sessionhasspassword"
     },
     encryption: {
         key: "[ENCRYPTION KEY]",
@@ -20,7 +16,7 @@ module.exports = {
     },
     baseUrl: "http://localhost:8081/",
     sendgrid: {
-        FromAddress:"noreply@pragyan.com",
+        FromAddress:"noreply@gmail.com",
         apiKey:"[insert your sendgrid api key]"
     }
 };

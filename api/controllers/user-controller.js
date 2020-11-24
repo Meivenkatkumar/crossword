@@ -15,15 +15,11 @@ loginHelper = async (email, password, cb) => {
         return new utils.CustomError("Enter a valid email");
     }
     let res = await User.findOne({ email: email });
-    let isWebmail = (/^[a-zA-Z0-9._%+-]+@nitt+\.edu$/).test(email);
-    
-    // If webmail check IMAP
-    if(isWebmail){
+  
+    if(true){
         try {
             let rollNumber = email.split('@')[0];
 
-            // Authenticate with IMAP
-            let imapResponse = await utils.imapAuthenticate(rollNumber, password);
             if(res == null){
                 // Register with IMAP 
                 let user = {
@@ -43,8 +39,6 @@ loginHelper = async (email, password, cb) => {
                 return res;    
             }
         } catch (err) {
-            // IMAP failed
-            // console.log(err);
             return new utils.CustomError("Invalid webmail credentials");
         }
     }
